@@ -8,7 +8,7 @@ table {
     width: 100%;
     font-size: 20pt;
     margin-bottom: 20%;
-    background-color: #DCDCDC;
+    background-color: #C2C2C2;
 }
 
 table.notbottom {
@@ -21,6 +21,7 @@ td, th {
     text-align: center;
     vertical-align: middle;
     width: 25%;
+    font-size: 20pt;
 }
 
 th.heading {
@@ -28,6 +29,7 @@ th.heading {
 	background-color: #00286D;
 	color: white;
     font-weight: normal;
+    font-size: 20pt;
 }
 
 .wrapper {
