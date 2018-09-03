@@ -6,7 +6,7 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    font-size: 25pt;
+    font-size: 20pt;
     margin-bottom: 4%;
     background-color: white;
 }
@@ -19,7 +19,8 @@ td, th {
     border: none;
     padding: 8px;
     text-align: center;
-    vertical-align: middle; 
+    vertical-align: middle;
+    width: 25%;
 }
 
 th.heading {
