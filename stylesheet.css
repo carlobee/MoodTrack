@@ -1,19 +1,22 @@
-body {
-	background-color: #D9D9D9;
+html, body {
+	background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     font-family: arial, sans-serif;
     font-size: 20pt;
     color: #00286D;
+    padding-left: 1.5%;
 }
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    width: 90%;
+    width: 100%;
     font-size: 20pt;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -25,11 +28,11 @@ table.notbottom {
 
 td, th {
     border: none;
-    padding: 8px;
     text-align: center;
     vertical-align: middle;
     width: 25%;
     font-size: 20pt;
+    padding: 3%;
 }
 
 th.heading {
@@ -38,6 +41,18 @@ th.heading {
     font-size: 20pt;
     text-align: left;
     padding: 3%;
+}
+
+th.title {
+    border: none;
+    background-color: #000F8D;
+    font-size: 20pt;
+    text-align: left;
+    padding: 3%;
+    width: 100%;
+    color: white;
+    font-weight: normal;
+    margin: 0;
 }
 
 .wrapper {
