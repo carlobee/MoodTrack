@@ -48,8 +48,8 @@ button {
 
 input[type='checkbox'] {
     -webkit-appearance:none;
-    width:30px;
-    height:30px;
+    width:60px;
+    height:60px;
     background:white;
     border-radius:5px;
     border:2px solid #555;
