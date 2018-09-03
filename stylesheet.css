@@ -2,6 +2,7 @@ html, body {
 	background-color: #EFEFEF;
     margin: 0;
     padding: 0;
+    font-size: 20px;
 }
 
 p {
@@ -55,6 +56,9 @@ th.title {
     margin: 0;
 }
 
+th {
+    font-size: 12px;
+}
 .wrapper {
     text-align: center;
     margin: 5%;
