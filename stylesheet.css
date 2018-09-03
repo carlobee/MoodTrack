@@ -1,4 +1,4 @@
-this is a test body {
+body {
 	background-color: white;
 }
 
@@ -26,4 +26,33 @@ th.heading {
 	border: none;
 	background-color: #00286D;
 	color: white;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 3%;
+}
+
+button {
+    background-color: #30C7FF;
+    border: none;
+    color: #005D80;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    width: 90%;
+    font-weight: bold;
+
+}
+
+button.sleep {
+    background-color: #F9E200;
+    color: #847800;
+
+}
+
+button.net {
+    background-color: #00FF26;
+    color: #008714;
 }
