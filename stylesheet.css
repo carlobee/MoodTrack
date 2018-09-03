@@ -27,6 +27,10 @@ table.notbottom {
 	margin-bottom: 0%;
 }
 
+table.top {
+    margin: 0;
+}
+
 td, th {
     border: none;
     text-align: center;
@@ -36,24 +40,36 @@ td, th {
     padding: 3%;
 }
 
+th.title {
+    border: none;
+    background-color: #000F8D;
+    font-size: 35pt;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    color: white;
+    margin: 0;
+}
+
+th.desc {
+    border: none;
+    background-color: #000F8D;
+    font-size: 25pt;
+    text-align: left;
+    padding: 3%;
+    width: 100%;
+    color: white;
+    margin: 0;
+    font-weight: normal;
+}
+
 th.heading {
 	border-bottom: 3px solid black;
 	background-color: white;
     font-size: 20pt;
     text-align: left;
     padding: 3%;
-}
-
-th.title {
-    border: none;
-    background-color: #000F8D;
-    font-size: 35pt;
-    text-align: left;
-    padding: 3%;
-    width: 100%;
-    color: white;
     font-weight: normal;
-    margin: 0;
 }
 
 .wrapper {
@@ -94,7 +110,6 @@ input[type='submit'] {
     width: 75%;
     font-weight: bold;
     margin: 0 auto;
-    border-radius: 10%;
     margin-bottom: 5%;
     margin-top: 5%;
 }
