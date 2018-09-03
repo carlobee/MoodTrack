@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
 	background-color: white;
 }
@@ -56,63 +55,4 @@ button.sleep {
 button.net {
     background-color: #00FF26;
     color: #008714;
-=======
-body {
-	background-color: white;
-}
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    font-size: 10pt;
-    margin-bottom: 2%;
-    background-color: white;
-}
-
-table.notbottom {
-	margin-bottom: 0%;
-}
-
-td, th {
-    border: 2px solid #dddddd;
-    padding: 8px;
-    text-align: center;
-    vertical-align: middle; 
-}
-
-th.heading {
-	border: none;
-	background-color: #00286D;
-	color: white;
-}
-
-.wrapper {
-    text-align: center;
-    margin: 3%;
-}
-
-button {
-    background-color: #30C7FF;
-    border: none;
-    color: #005D80;
-    padding: 15px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    width: 90%;
-    font-weight: bold;
-
-}
-
-button.sleep {
-    background-color: #F9E200;
-    color: #847800;
-
-}
-
-button.net {
-    background-color: #00FF26;
-    color: #008714;
->>>>>>> e6cfcabd6b0f2c3d345fcdefaebaced2b142fba3
 }
