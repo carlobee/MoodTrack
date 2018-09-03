@@ -26,6 +26,7 @@ th.heading {
 	border: none;
 	background-color: #00286D;
 	color: white;
+    font-weight: normal;
 }
 
 .wrapper {
@@ -43,4 +44,16 @@ button {
     font-size: 50px;
     width: 100%;
     font-weight: bold;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input[type='checkbox']:checked {
+    background: #abd;
 }
