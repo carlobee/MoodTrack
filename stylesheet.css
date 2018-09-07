@@ -1,13 +1,25 @@
-body {
-	background-color: white;
+html, body {
+	background-color: #EFEFEF;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+p {
+    font-family: arial, sans-serif;
+    font-size: 30pt;
+    color: #00286D;
+    padding-left: 1.5%;
 }
 
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-    font-size: 10pt;
-    margin-bottom: 2%;
+    font-size: 30pt;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: white;
 }
 
@@ -15,44 +27,89 @@ table.notbottom {
 	margin-bottom: 0%;
 }
 
+table.top {
+    margin: 0;
+}
+
 td, th {
-    border: 2px solid #dddddd;
-    padding: 8px;
+    border: none;
     text-align: center;
-    vertical-align: middle; 
+    vertical-align: middle;
+    width: 25%;
+    font-size: 25pt;
+    padding: 3%;
+}
+
+th.title {
+    border: none;
+    background-color: #000F8D;
+    font-size: 35pt;
+    text-align: center;
+    padding: 3%;
+    width: 100%;
+    color: white;
+    margin: 0;
+}
+
+th.desc {
+    border: none;
+    background-color: #000F8D;
+    font-size: 25pt;
+    text-align: left;
+    padding: 3%;
+    width: 100%;
+    color: white;
+    margin: 0;
+    font-weight: normal;
 }
 
 th.heading {
-	border: none;
-	background-color: #00286D;
-	color: white;
+	border-bottom: 3px solid black;
+	background-color: white;
+    font-size: 20pt;
+    text-align: left;
+    padding: 3%;
+    font-weight: normal;
 }
 
 .wrapper {
     text-align: center;
-    margin: 3%;
+    margin: 5%;
 }
 
 button {
-    background-color: #30C7FF;
-    border: none;
-    color: #005D80;
-    padding: 15px 32px;
+    background-color: white;
+    border: 7px solid #33B5E5;
+    color: #33B5E5;
+    padding: 60px 32px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
-    width: 90%;
+    font-size: 50px;
+    width: 100%;
     font-weight: bold;
-
 }
 
-button.sleep {
-    background-color: #F9E200;
-    color: #847800;
-
+input[type='radio'] {
+    -webkit-appearance:none;
+    width:80px;
+    height:80px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
 }
-
-button.net {
-    background-color: #00FF26;
-    color: #008714;
+input[type='radio']:checked {
+    background: #abd;
+}
+input[type='submit'] {
+    background-color: #000F8D;
+    color: white;
+    padding: 60px 32px;
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    width: 75%;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
